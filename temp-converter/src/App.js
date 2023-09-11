@@ -1,6 +1,7 @@
 import convert from '../src/convert.png';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +31,7 @@ function App() {
         </select>
         <input id='output' type='number' /></div></div>
 
-        <input type="button" id='button' value="CONVERT" />
+        <button type="button"  id='button'>CONVERT</button>
       </form>
 
     </div>

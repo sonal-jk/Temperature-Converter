@@ -8,7 +8,7 @@ import Change from './Change';
 function App() {
   return (
     <div className="App">
-      <h1>TEMPERATURE CONVERTER</h1>
+      <h1 id='head'>TEMPERATURE CONVERTER</h1>
       
       <form>
       <div className="top">

@@ -47,11 +47,46 @@
   color: white;
   background-color: #22668D;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 6px;
+  margin: 0 0 8% 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media (max-width:736px){
+  .App{
+    font-size: 3vw;
+  
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .from,.to{
+    width: 70%;
+    font-size: 5vw;
+  
+  }
+  #input,#output{
+    font-size: 100%;
+  }
+  #button{
+    width: 30%;
+    font-size: 5vw;
+  }
+  #convert{
+    width:15%;
+    margin-top: 4%;
+    rotate: 90deg;
+  }
+  #head{
+    font-size: 10vw;
+  }
 }

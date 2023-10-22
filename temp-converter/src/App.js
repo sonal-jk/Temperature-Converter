@@ -32,7 +32,7 @@ function App() {
           <option value='Celsius'>Celsius (°C)</option>
           <option value='Kelvin'>Kelvin (°K)</option>
         </select>
-        <input id='output' type='number' /></div></div>
+        <input id='output' disabled type='number' /></div></div>
 
         <button type="button" onClick={Change} id='button'>CONVERT</button>
       </form>

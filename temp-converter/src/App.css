@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #22668D;
+  color: #01856F;
   font-size: 1.7vw;
 }
 .top{
@@ -16,9 +16,9 @@
 
 }
 .top select{
-  background-color: #f0f2f3;
+  background-color: #dce9e2;
   border-radius: 4px;
-  color: #1b2b35;
+  color: #046d5b;
   width: 70%;
   font-size: 90%;
  
@@ -28,13 +28,15 @@
   width: 70%;
   font-size: 80%;
   border: none;
-  border-bottom: 1px solid #FFCC70;
+  border-bottom: 1px solid #00cf99;
 }
 
 #input:hover,#output:hover{
-  border:1px solid #FFCC70; 
+  border:1px solid #00cf99; 
 }
-
+#input[type=number]:focus{
+  border: 1px solid #00cf99 !important;
+}
 #convert{
   width:8%;
   margin-top: 6%;
@@ -45,10 +47,10 @@
   height: 40%;
   font-size: 1.5vw;
   color: white;
-  background-color: #22668D;
+  background-color: #01856F;
   border: none;
-  border-radius: 10px;
-  padding: 6px;
+  border-radius: 20px;
+  padding:6px 10px;
   margin: 0 0 8% 0;
 }
 

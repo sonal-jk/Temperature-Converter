@@ -36,7 +36,9 @@
 }
 #input[type=number]:focus{
   border: 1px solid #00cf99 !important;
+  
 }
+
 #convert{
   width:8%;
   margin-top: 6%;

@@ -2,6 +2,8 @@
   text-align: center;
   color: #01856F;
   font-size: 1.7vw;
+  margin: 8% 0;
+
 }
 .top{
   display: flex;
@@ -30,6 +32,7 @@
   border: none;
   border-bottom: 1px solid #00cf99;
 }
+
 
 #input:hover,#output:hover{
   border:1px solid #00cf99; 
@@ -60,8 +63,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+@media (max-width:1024px) and (min-width:901px){
+  .App{
+    margin: 25% 0;
+  }
+}
 
-@media (max-width:736px){
+@media (max-width:900px){
   .App{
     font-size: 3vw;
   
